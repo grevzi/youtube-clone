@@ -1,0 +1,29 @@
+.channel-row {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.channel-row__text {
+    display: flex;
+    flex-direction: column;
+    color: #606060;
+    font-size: small;
+}
+.channel-row__logo {
+    width: 120px;
+    height: 120px;
+    margin: 10px 60px;
+}
+.channel-row__channel {
+    display: flex;
+    align-items: center;
+    font-size: 16px!important;
+    font-weight: 700;
+    color: #202020;
+}
+
+.channel-row__channel > svg {
+    margin-left: 5px;
+    width: 20px;
+}
